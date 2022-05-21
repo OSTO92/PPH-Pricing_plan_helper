@@ -9,8 +9,7 @@ int comparison(int* tele2, int* mts, int* megafon, int* beeline, int* yota)
 {
     // 0
     int imax_fortele2 = 0, max_fortele2 = 0;
-    counting_for_tele2(
-            &imax_fortele2, &max_fortele2, tele2, mts, megafon, beeline, yota);
+    counting_for_tele2(&imax_fortele2, &max_fortele2, tele2, mts, megafon, beeline, yota);
 
     cout << "\t         Из тарифов Теле2 вам больше всего подойдёт: " << endl;
 

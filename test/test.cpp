@@ -1,4 +1,5 @@
 #define CATCH_CONFIG_MAIN
+#include "test.hpp"
 #include "../src/Menu.hpp"
 #include "../src/about_operators.hpp"
 #include "../src/comparison.hpp"

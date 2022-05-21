@@ -1,6 +1,6 @@
 #ifndef COMPARISON_H
 #define COMPARISON_H
-int counting_for_tele2(int* imax_fortele2, int* max_fortele2, int* tele2, int* mts, int* megafon, int* beeline, int* yota)
+int counting_for_tele2(int* imax_fortele2, int* max_fortele2, int* tele2, int* mts, int* megafon, int* beeline, int* yota);
 int counting_for_mts(
         int* imax_mts,
         int* max_mts,
@@ -8,7 +8,7 @@ int counting_for_mts(
         int* mts,
         int* megafon,
         int* beeline,
-        int* yota)
+        int* yota);
 int counting_for_megafon(
         int* imax_megafon,
         int* max_megafon,
@@ -16,7 +16,7 @@ int counting_for_megafon(
         int* mts,
         int* megafon,
         int* beeline,
-        int* yota)
+        int* yota);
 int counting_for_beeline(
         int* imax_beeline,
         int* max_beeline,
@@ -24,7 +24,7 @@ int counting_for_beeline(
         int* mts,
         int* megafon,
         int* beeline,
-        int* yota)
+        int* yota);
 int counting_for_yota(
         int* imax_yota,
         int* max_yota,
@@ -32,7 +32,7 @@ int counting_for_yota(
         int* mts,
         int* megafon,
         int* beeline,
-        int* yota)
+        int* yota);
 
 
 int comparison(int* tele2, int* mts, int* megafon, int* beeline, int* yota);

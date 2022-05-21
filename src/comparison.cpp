@@ -2,6 +2,7 @@
 #include "about_operators.hpp"
 #include "counting_for.hpp"
 #include <iostream>
+#include "comparison.hpp"
 using namespace std;
 
 int comparison(int* tele2, int* mts, int* megafon, int* beeline, int* yota)
